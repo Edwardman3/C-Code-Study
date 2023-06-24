@@ -88,7 +88,7 @@ void Dzielenie(float Re1, float Im1, float *Re2, float *Im2)
 	*Im2 = pom2;
 }
 
-void Mno¿enie(float Re1, float Im1, float *Re2, float *Im2)
+void MnoÅ¼enie(float Re1, float Im1, float *Re2, float *Im2)
 {
 	float pom1;
 	float pom2;
@@ -206,7 +206,7 @@ int main()
 				if ((char)polecenie == '*')
 				{
 					printf("(%f i%f) * (%f i%f) = ", (gora->Re), (gora->Im), buforRe, buforIm);
-					Mno¿enie(buforRe, buforIm, &(gora->Re), &(gora->Im));
+					MnoÅ¼enie(buforRe, buforIm, &(gora->Re), &(gora->Im));
 					printf("(%f i%f)\n", (gora->Re), (gora->Im));
 				}
 				if ((char)polecenie == '/')
