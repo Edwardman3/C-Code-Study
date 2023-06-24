@@ -15,21 +15,21 @@ void CzyszczenieBufora() /*funkcja czyszczaca bufor*/
 
 void WczytajDziedzine(float *zakres_dolny, float *zakres_gorny) /*funkcja wczytuje dolny i gorny przedzial dziedziny*/
 {
-	printf("Podaj dolna granice(Liczba w formacie dziesiêtnym): ");
+	printf("Podaj dolna granice(Liczba w formacie dziesiÄ™tnym): ");
 	while ((scanf_s("%f", zakres_dolny)) != 1)
 	{
 		system("cls");
 		puts("BLEDNE WPROWADZENIE DANYCH");
-		printf("Podaj dolna granice(Liczba w formacie dziesiêtnym): ");
+		printf("Podaj dolna granice(Liczba w formacie dziesiÄ™tnym): ");
 		CzyszczenieBufora();
 	}
 	printf("Dolna granica przyjela wartosc: %f\n", *zakres_dolny);
-	printf("Podaj gorna granice (liczba w formacie dziesiêtnym wieksza od dolnej granicy): ");
+	printf("Podaj gorna granice (liczba w formacie dziesiÄ™tnym wieksza od dolnej granicy): ");
 	while (((scanf_s("%f", zakres_gorny))) != 1 || (*zakres_gorny<=*zakres_dolny)  )
 	{
 		system("cls");
 		puts("BLEDNE WPROWADZENIE DANYCH");
-		printf("Podaj gorna granice (liczba w formacie dziesiêtnym wieksza od dolnej granicy): ");
+		printf("Podaj gorna granice (liczba w formacie dziesiÄ™tnym wieksza od dolnej granicy): ");
 		CzyszczenieBufora();
 	}
 	printf("Gorna granica przyjela wartosc: %f\n", *zakres_gorny);
@@ -287,13 +287,13 @@ int main()
 	{
 		
 		puts("_________________________________ ");
-		puts("1. Generowanie sygna³u           |");
+		puts("1. Generowanie sygnaÅ‚u           |");
 		puts("_________________________________|");
-		puts("2. Zaszumiania sygna³u           |");
+		puts("2. Zaszumiania sygnaÅ‚u           |");
 		puts("_________________________________|");
-		puts("3. Zapis sygna³u do pliku .csv   |");
+		puts("3. Zapis sygnaÅ‚u do pliku .csv   |");
 		puts("_________________________________|");
-		puts("4. Odczyt sygna³u z pliku .csv   |");
+		puts("4. Odczyt sygnaÅ‚u z pliku .csv   |");
 		puts("_________________________________|");
 		puts("5. Filtruj zaszumiony sygnal     |"); 
 		puts("_________________________________|");
