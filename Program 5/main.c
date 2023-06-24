@@ -348,7 +348,7 @@ void SalaZajeciowa(struct postac *pilny_student,struct mapa *mapka)
 		}
 		else
 		{
-			puts("NADZWYCZAJNY PROWADZACY: To niemozliwe ... zdales wszystko co dalo sie zdac... lecz to nie koniec pozosta≥ Ci jeszcze egzamin ustny!");
+			puts("NADZWYCZAJNY PROWADZACY: To niemozliwe ... zdales wszystko co dalo sie zdac... lecz to nie koniec pozosta≈Ç Ci jeszcze egzamin ustny!");
 			puts("PROWADZACY ZAMIENIA SIE W BADUROZAURA!!! MISTYCZNA POSTAC U KTOREJ JESZCZE NIKT NIE ZDAL");
 			Sleep(3000);
 			WalkaZBosem(pilny_student);
